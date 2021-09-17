@@ -1,0 +1,17 @@
+{
+  "name": "logseq-eink-theme",
+  "version": "0.0.1",
+  "repository": "git@github.com:DiamondYuan/logseq-eink-theme.git",
+  "author": "DiamondYuan <admin@diamondyuan.com>",
+  "license": "MIT",
+  "logseq": {
+    "themes": [
+      {
+        "name": "light",
+        "url": "./light.css",
+        "mode": "light"
+      }
+    ],
+    "id": "logseq-eink-theme"
+  }
+}

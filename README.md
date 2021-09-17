@@ -1,2 +1,3 @@
 # logseq-eink-theme
-logseq theme for eink
+
+logseq theme for boox mira

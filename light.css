@@ -1,0 +1,24 @@
+.page-reference .bracket {
+  opacity: 1;
+}
+
+textarea::selection {
+  background-color: black !important;
+  color: white !important;
+}
+
+.bullet-container .bullet {
+  background-color: black !important;
+}
+
+svg {
+  color: black !important;
+}
+
+#repo-name {
+  color: black !important;
+}
+
+.dropdown-wrapper {
+  border: 1px solid black !important;
+}
