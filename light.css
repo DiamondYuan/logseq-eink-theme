@@ -22,3 +22,17 @@ svg {
 .dropdown-wrapper {
   border: 1px solid black !important;
 }
+
+.search-ac {
+  border: 1px solid black !important;
+}
+.absolute-modal {
+  border: 1px solid black !important;
+}
+.ui__ac-group-name {
+  color: black !important;
+}
+a.chosen {
+  background-color: black !important;
+  color: white !important;
+}
