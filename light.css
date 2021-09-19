@@ -92,3 +92,8 @@ blockquote {
   border-left: 2px solid black !important;
   background-color: white;
 }
+
+.sidebar-item {
+  box-shadow: none;
+  border-bottom: 1px solid black !important;
+}
