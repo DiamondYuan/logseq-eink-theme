@@ -86,3 +86,9 @@ a.chosen p {
 .custom-context-menu {
   border: 1px solid black !important;
 }
+
+blockquote {
+  border: 1px dashed black !important;
+  border-left: 2px solid black !important;
+  background-color: white;
+}
