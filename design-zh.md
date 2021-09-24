@@ -36,3 +36,35 @@ html ::-webkit-scrollbar-thumb {
   border-bottom: 1px solid black !important;
 }
 ```
+
+### 编辑器
+
+1. 辅助线颜色
+
+```css
+.white-theme,
+html[data-theme="light"] {
+  --ls-guideline-color: rgba(00, 00, 00, 0.7);
+}
+```
+
+2. 引用次数
+
+```css
+.white-theme,
+html[data-theme="light"] {
+  --ls-link-text-color: rgba(00, 00, 00, 0.7);
+}
+.open-block-ref-link {
+  opacity: 1;
+  border: 1px solid var(--ls-link-text-color);
+}
+```
+
+### 悬浮框
+
+```css
+.tippy-popper {
+  border: 1px solid var(--ls-link-text-color);
+}
+```

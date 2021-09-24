@@ -6,6 +6,11 @@
   color: black;
 }
 
+.chosen a {
+  color: white !important;
+  opacity: 1;
+}
+
 textarea::selection {
   background-color: black !important;
   color: white !important;
@@ -112,4 +117,43 @@ html ::-webkit-scrollbar-thumb {
 .sidebar-item {
   box-shadow: none;
   border-bottom: 1px solid black !important;
+}
+
+/* Editor */
+
+.white-theme,
+html[data-theme="light"] {
+  --ls-guideline-color: rgba(00, 00, 00, 0.7);
+}
+
+/* --- */
+.white-theme,
+html[data-theme="light"] {
+  --ls-link-text-color: rgba(00, 00, 00, 0.7);
+}
+
+.open-block-ref-link {
+  opacity: 1;
+  border: 1px solid var(--ls-link-text-color);
+}
+
+/* Popper */
+.tippy-popper[x-placement^="top"] [x-arrow] {
+  border: none;
+}
+
+.tippy-popper[x-placement^="top"] [x-arrow].arrow-small {
+  border: none;
+}
+
+.tippy-popper[x-placement^="bottom"] [x-arrow] {
+  border: none;
+}
+
+.tippy-popper[x-placement^="bottom"] [x-arrow].arrow-small {
+  border: none;
+}
+
+.tippy-tooltip {
+  border: 1px solid rgba(00, 00, 00, 0.7);
 }
