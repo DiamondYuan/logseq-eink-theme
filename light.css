@@ -93,6 +93,22 @@ blockquote {
   background-color: white;
 }
 
+/* ScrollBar */
+
+html ::-webkit-scrollbar {
+  border-left: 1px solid black;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background-color: black !important;
+}
+
+/* SideBar */
+
+#right-sidebar-container {
+  border-left: 1px solid black !important;
+}
+
 .sidebar-item {
   box-shadow: none;
   border-bottom: 1px solid black !important;
