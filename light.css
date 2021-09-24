@@ -6,9 +6,29 @@
   color: black;
 }
 
-.chosen a {
-  color: white !important;
+div#right-sidebar {
+  transition: all 0s;
+  -webkit-transition: all 0s;
+}
+
+html[data-theme="light"] .cp__header .chosen a {
+  color: white;
   opacity: 1;
+}
+
+html[data-theme="light"] .cp__header a:hover {
+  color: black;
+  background: white;
+}
+
+mark {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.chosen mark {
+  background: white;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 textarea::selection {
