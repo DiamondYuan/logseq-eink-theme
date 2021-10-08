@@ -185,3 +185,7 @@ html[data-theme="light"] {
   color: white;
   opacity: 1;
 }
+
+.ui__modal-panel {
+  border: 1px solid black !important;
+}
