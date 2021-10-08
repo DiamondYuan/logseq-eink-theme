@@ -177,3 +177,11 @@ html[data-theme="light"] {
 .tippy-tooltip {
   border: 1px solid rgba(00, 00, 00, 0.7);
 }
+
+.cp__palette-main .chosen {
+  background-color: black !important;
+}
+.cp__palette-main .chosen code.opacity-20.bg-transparent {
+  color: white;
+  opacity: 1;
+}
