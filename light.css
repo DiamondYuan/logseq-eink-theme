@@ -181,11 +181,20 @@ html[data-theme="light"] {
 .cp__palette-main .chosen {
   background-color: black !important;
 }
-.cp__palette-main .chosen code.opacity-20.bg-transparent {
+.cp__palette-main .chosen code:first-child {
   color: white;
   opacity: 1;
 }
-
 .ui__modal-panel {
   border: 1px solid black !important;
+}
+
+.cp__palette-main code:nth-child(2) {
+  background: rgba(00, 00, 00, 0.3);
+  color: white;
+}
+
+.cp__palette-main .chosen code:nth-child(2) {
+  background: white;
+  color: black;
 }
