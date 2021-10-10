@@ -68,3 +68,28 @@ html[data-theme="light"] {
   border: 1px solid var(--ls-link-text-color);
 }
 ```
+
+### 命令面板
+
+```css
+.cp__palette-main .chosen {
+  background-color: black !important;
+}
+.cp__palette-main .chosen code:first-child {
+  color: white;
+  opacity: 1;
+}
+.ui__modal-panel {
+  border: 1px solid black !important;
+}
+
+.cp__palette-main code:nth-child(2) {
+  background: rgba(00, 00, 00, 0.3);
+  color: white;
+}
+
+.cp__palette-main .chosen code:nth-child(2) {
+  background: white;
+  color: black;
+}
+```
