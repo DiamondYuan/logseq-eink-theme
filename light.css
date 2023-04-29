@@ -5,7 +5,7 @@ html[data-theme="dark"],
   background-color: black;
   --ls-primary-background-color: black;
   --ls-secondary-background-color: #1c1c1c;
-  --ls-tertiary-background-color: #4f4f4f;
+  --ls-tertiary-background-color: #121212;
   --ls-quaternary-background-color: #5a5a5a;
 
   --ls-table-tr-even-background-color: #3f3f3f48;
@@ -349,6 +349,15 @@ html[data-theme="light"] div[data-refs-self*='"card"'] {
 }
 html[data-theme="dark"] div[data-refs-self*='"card"'] {
   border: white solid 1px;
+}
+
+/*notifications*/
+html[data-theme="dark"] .ui__notifications .notification-area {
+  border: white 1px solid;
+}
+
+html[data-theme="light"] .ui__notifications .notification-area {
+  border: black 1px solid;
 }
 
 /* Popper */
