@@ -106,9 +106,16 @@ html[data-theme="dark"] mark {
   color: white;
 }
 
-.chosen mark {
+/* Highlight search term in searches */
+
+html[data-theme="light"] .chosen mark {
   background: white;
   color: rgba(0, 0, 0, 0.7);
+}
+
+html[data-theme="dark"] .chosen mark {
+  background: black;
+  color: rgba(255, 255, 255, 0.936);
 }
 
 /* Text area */
@@ -201,7 +208,14 @@ html[data-theme="dark"] a.chosen {
 html[data-theme="light"] a.chosen p {
   color: white !important;
 }
-html[data-theme="dark"] a.chosen p {
+html[data-theme="light"] a.chosen p,
+html[data-theme="light"] a.chosen .breadcrumb.block-parents a,
+html[data-theme="light"] a.chosen .breadcrumb.block-parents svg {
+  color: white !important;
+}
+html[data-theme="dark"] a.chosen p,
+html[data-theme="dark"] a.chosen .breadcrumb.block-parents a,
+html[data-theme="dark"] a.chosen .breadcrumb.block-parents svg {
   color: black !important;
 }
 
